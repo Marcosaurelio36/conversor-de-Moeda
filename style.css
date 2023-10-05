@@ -11,19 +11,28 @@
 
 }
 body{
-    background-color: #e5e5e5;
+    background : url(./assets/como_funciona_a_bolsa_de_valores.jpg) no-repeat center fixed;
+    background-size: cover;
+    min-height: 100vh;
 
 }
 .container{
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
     background-color:#F4F4F4 ;
     margin:0 auto;
     margin-top: 100px;
+    border-radius: 20px;
+    
     
 }
 header{
-    background-color: #1B83E2;
+    background-color: #079a29;
     height: 66px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px
+
 }
 h1{
     font-size: 24px;
@@ -71,7 +80,7 @@ select{
     }
 
     button{
-        background: #1B83E2;
+        background: #079a29;
         border-radius: 25px;
         height: 48px;
         cursor: pointer;
@@ -84,14 +93,16 @@ select{
         margin-bottom: 36px;
     }
     button:hover{
-        opacity: 0.9;
+       border: 2px solid #530ea2;
+       color: #079a29;
+       background-color:#ffffff;
     }
     button:active{
         opacity:0.7;
     }
 
     section{
-            border: 1px solid #1B83E2;
+            border: 1px solid  #079a29;
             border-radius: 4px;
   
     }
@@ -100,7 +111,7 @@ select{
         padding-top:10px;
 
     }
-    .currency-name{
+    .currency-name {
          font-weight: 400;
          font-size: 14px;
          line-height: 18px;
@@ -109,7 +120,7 @@ select{
 
     }
     .currency-value{
-        color:#1B83E2;
+        color: #079a29;
         font-weight: bold;
         font-size: 20px;
 
